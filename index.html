@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ananya Joshi | AWS EC2 Terminal</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    font-family:Consolas, Monaco, monospace;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:40px;
+}
+
+.terminal{
+    width:900px;
+    background:#000;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 0 30px rgba(0,255,120,.2);
+}
+
+.titlebar{
+    background:#232323;
+    padding:14px 18px;
+    display:flex;
+    align-items:center;
+}
+
+.dot{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    margin-right:8px;
+}
+
+.red{background:#ff5f57;}
+.yellow{background:#febc2e;}
+.green{background:#28c840;}
+
+.title{
+    color:#d4d4d4;
+    margin-left:15px;
+    font-size:15px;
+}
+
+.content{
+    padding:35px;
+    color:white;
+    line-height:1.9;
+    font-size:18px;
+}
+
+.command{
+    color:#00ff66;
+    font-weight:bold;
+    margin-top:30px;
+    font-size:20px;
+}
+
+.output{
+    margin-left:30px;
+    margin-top:8px;
+    color:white;
+}
+
+.green-text{
+    color:#00ff66;
+}
+
+.cursor{
+    display:inline-block;
+    width:12px;
+    height:22px;
+    background:#00ff66;
+    animation:blink 1s infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
+}
+
+hr{
+    border:none;
+    border-top:1px solid #222;
+    margin:30px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="terminal">
+
+<div class="titlebar">
+
+<div class="dot red"></div>
+<div class="dot yellow"></div>
+<div class="dot green"></div>
+
+<div class="title">
+ananya@aws-terminal
+</div>
+
+</div>
+
+<div class="content">
+
+<div class="command">$ welcome</div>
+
+<div class="output">
+
+Welcome Explorer!<br><br>
+
+You have successfully reached my first cloud server.<br>
+
+This website isn't running on my laptop.<br>
+
+It's hosted on an <span class="green-text">Amazon EC2 Linux instance</span> that I configured myself.
+
+</div>
+
+<hr>
+
+<div class="command">$ whoami</div>
+
+<div class="output">
+Ananya Joshi
+</div>
+
+<div class="command">$ role</div>
+
+<div class="output">
+Aspiring Cloud and DevOps Engineer
+</div>
+
+<div class="command">$ skills_unlocked</div>
+
+<div class="output">
+Linux<br>
+AWS EC2<br>
+Networking<br>
+Python<br>
+HTML<br>
+CSS
+</div>
+
+<div class="command">$ current_project</div>
+
+<div class="output">
+Hosting my first website using<br><br>
+
+Amazon EC2 + Apache Web Server
+</div>
+
+<div class="command">$ cloud_journey</div>
+
+<div class="output">
+
+<span class="green-text">✔ Launch EC2 Instance</span><br><br>
+
+<span class="green-text">✔ Connect using SSH</span><br><br>
+
+<span class="green-text">✔ Install Apache</span><br><br>
+
+<span class="green-text">✔ Deploy Website</span>
+
+</div>
+
+<div class="command">$ system_info</div>
+
+<div class="output">
+
+OS : Amazon Linux 2023<br><br>
+
+Cloud : AWS EC2<br><br>
+
+Web Server : Apache HTTP Server<br><br>
+
+Status : <span class="green-text">ONLINE</span>
+
+</div>
+
+<div class="command">$ echo "Thanks for visiting!"</div>
+
+<div class="output">
+
+<span class="green-text">Thanks for stopping by.</span><br><br>
+
+<span class="green-text">This is just the beginning of my Cloud Journey.</span>
+
+</div>
+
+<br><br>
+
+<div class="command">
+$ <span class="cursor"></span>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
