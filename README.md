@@ -59,17 +59,6 @@ Terminal-Themed HTML Website
 
 ---
 
-## Project Steps
-
-1. Launched an Amazon EC2 instance.
-2. Connected securely using SSH from Windows PowerShell.
-3. Updated the Linux server.
-4. Installed Apache HTTP Server.
-5. Started and enabled the Apache service.
-6. Created a custom terminal-themed HTML webpage.
-7. Hosted the website on the EC2 instance.
-
----
 
 
 
