@@ -1,5 +1,5 @@
 
-# My First AWS Cloud Project ☁️
+# My First AWS Cloud Project 
 
 ## Overview
 
@@ -46,16 +46,6 @@ Terminal-Themed HTML Website
 - Apache HTTP Server
 - HTML
 - CSS
-
----
-
-## Skills Gained
-
-- Launching EC2 instances
-- Connecting to Linux servers using SSH
-- Basic Linux command-line operations
-- Installing and managing Apache HTTP Server
-- Hosting a static website on AWS
 
 ---
 
